@@ -1,0 +1,27 @@
+exercicio01
+
+//variavel
+Fahrenheit Celsius
+
+//Entrada
+fahrenheit
+
+//Processamento
+grauscelsius = (fahrenheit - 32) / 1.8
+
+//Sainda
+graus celsius
+
+obs: toFixed(algum numero)  (para formatar o resultado em numeros de casa decimais usamos: .toFixed(2)isso seria duas casa decimais)
+
+
+----------------------------------------------------------
+Exercicio 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+regra de 3 (calculo da porcentagem)
+criar no scratch e no js um app para fazer o calculo da % seguindo o modelo abaixo
+
+10% de 200 = 20
+x      y     valor
+
+formula (regra de 3)
+valor x,y (numerica)

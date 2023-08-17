@@ -1,0 +1,26 @@
+Algoritmo ("é uma receita de bolo")
+Exemplo: criar um app para calcular a media de duas  notas 
+
+como calcular a media :
+            nota 1 + nota 2
+media =____________________________
+                    2
+// variaveis
+3 -> numericas (nota1, nota2, media)
+
+// Entrada
+nota1, nota2,
+
+// Processamento 
+media = (nota1 + nota2) / 2
+
+// Saida
+media
+______________________________________________________________________________________________________________________________________
+
+Variaveis do mesmo proposito podem ser criadas em uma unica linha separadas por virgula
+
+concatenação (Juntar um texto com o conteudo de uma variavel)(vai unir um texto com uma variavel)
+console.log(`Texto : ${variavel}`)
+_____________________________________________________________________________________________________________________________________
+Dica : http://www.network-science.de/ascii/
