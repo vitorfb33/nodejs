@@ -1,8 +1,11 @@
+/**
+ * PDV - ponto de vendas
+ */
 
 //importação de modulos
 const read = require('readline-sync')
 
-//variavel
+//variaveis
 let total, desconto, valor, dinheiro, troco
 
 console.log (" oooooooooo ooooooooo  ooooo  oooo ")
@@ -12,25 +15,26 @@ console.log (" 888        888    888    88888     ")
 console.log (" o888o      o888ooo88      888      ")
 console.log("")
 
-
 //entrada
+valor = Number(read.question("digite o valor total da compra: "))
+desconto = Number(read.question("digite o valor do desconto: "))
 
-valor = Number(read.question("Digite o valor total da compra: "))
-desconto = Number(read.question("Digite o valor do desconto: "))
+//processamento
 
-//Processamento
-
-total = valor - ((desconto * valor) /100 )
-
-//sainda
-console.log(`o valor total foi R$ ${total.toFixed(2)} Reais`) 
-
-
-//Entrada2
-dinheiro = Number(read.question("Digite o valor do dinheiro entregue"))
-
-//processamento2
+total = valor - ((desconto * valor) /100 ) 
 troco = dinheiro - total
 
-//saida
-console.log(`troco de R$ ${troco.toFixed(2)}`)
+//saida 
+console.log(`total: R$ ${total.toFixed(2)}`)
+console.log("")
+console.log("___________________________________________________-")
+
+//entrada 2
+dinheiro = Number(read.question("digite o valor pago em dinheiro"))
+
+//processamento 2
+troco = dinheiro - total
+
+//saida 2
+console.log(`Troco R$ ${troco.toFixed(2)}`)
+

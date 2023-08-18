@@ -1,0 +1,10 @@
+atividade de avaliação (individual - node):
+exercicio 4
+desenvolver um app para converter milhas em km/h
+
+exercicio 6 
+
+desenvolver um APP para calcular o preço de venda de um produto em função do preço
+de custo e margem de lucro(%)
+exemplo
+custo: 30,00 | lucro 50% | venda: 45,00

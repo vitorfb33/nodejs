@@ -6,17 +6,26 @@
 //importação do pacote readline-sync
 const read = require('readline-sync')
 
-//variavel
-let fahrenheit, grauscelsius
+//Variaveis
+let grauscelsius, fahrenheit
 
-//entrada
+
+
+console.clear()
+console.log ("===============================")
+console.log ("== conversor de temperatura == ")
+console.log ("== Fahrenheit para Celsius  == ")
+console.log ("===============================")
+console.log("")
+
+//Entrada
 fahrenheit = Number(read.question("Digite a temperatura em Fahrenheit: "))
 
 //Processamento
+grauscelsius = (fahrenheit - 32) / 1.8
 
-grauscelsius= (fahrenheit - 32) / 1.8
-
-//Saida
-
+//Sainda
 console.clear()
 console.log(`${grauscelsius.toFixed(2)}  Graus Celsius `)
+
+

@@ -29,3 +29,5 @@ venda = custo + ((lucro * custo) /100)
 
 console.clear()
 console.log(`total de venda foi ${venda} R$` )
+
+

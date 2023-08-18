@@ -1,10 +1,14 @@
+/**
+ * Estudos das variaveis
+ */
+
 let nome 
 let idade
 let vip
 const pi = 3.14
 
 nome = "vitor bergami"
-idade = 25
+idade = 55
 vip = true
 pi 
 console.clear
