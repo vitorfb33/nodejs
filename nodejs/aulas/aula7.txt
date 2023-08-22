@@ -1,10 +1,42 @@
 atividade de avaliação (individual - node):
+
+
 exercicio 4
 desenvolver um app para converter milhas em km/h
+conversão  = milhas x 1,60934
 
+//variaveis
+km, milhas (numerica)
+//entrada
+milhas
+//processamento
+km = milhas * 1.60934
+//saida
+km
+------------------------------------------------------------------------------------------------------------------------------
+exercicio 5 
+desenvolver um app para converter libras em kg
+kg =  libras 
+    __________
+      2.2046
+
+
+//variaveis
+libras,kg
+//entrada
+libras
+//Processamento
+kg = milhas / 2.2046
+//saida
+kg
+
+-----------------------------------------------------------------------------------------------------------------------------------
 exercicio 6 
-
 desenvolver um APP para calcular o preço de venda de um produto em função do preço
 de custo e margem de lucro(%)
 exemplo
 custo: 30,00 | lucro 50% | venda: 45,00
+
+preço de venda = preço de custo + lucro
+
+

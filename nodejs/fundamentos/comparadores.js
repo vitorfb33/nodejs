@@ -1,9 +1,6 @@
 /**
  * Comparadores
  */
-
-
-
 console.clear
 console.log("operadores comparativos")
 console.log(">   | maior que")

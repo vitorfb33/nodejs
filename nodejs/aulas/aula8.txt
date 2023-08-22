@@ -1,0 +1,12 @@
+GitHub
+linguagem de marcação markdown
+# Titulo
+## subtitulo
+![]() inserir imagem
+[]() inserir link
+- bullets
+
+dica: Selo de metadados
+https://shields.io/badges/git-hub
+https://shields.io/
+

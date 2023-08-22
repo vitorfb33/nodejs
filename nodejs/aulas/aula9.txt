@@ -1,0 +1,19 @@
+Atividade de avaliação  individual
+(entraga pelo GitHub)
+
+1) criar um repositorio no GitHub e hospedar todos os projetos feitos no Scratch (7 projetos)
+
+2) criar no Scratch um app para calcular  o valor da hora de serviço de um técninco de informatica
+(hospedar no GitHub - Scratch)
+
+ remuneração mensal pretendida : 5000
+ reserva: 30% remuneração 1500 (constante)
+ custo operacional: 500
+ investimento: 20 % remuneração (1000)
+
+ soma: 8000
+
+ determinar horas/mês  (160)
+
+ hora técninca = 8000 / 160
+ hora técninca = 50.00

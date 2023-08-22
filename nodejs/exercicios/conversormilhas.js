@@ -16,12 +16,12 @@ console.log("+-+-+-+-+-+-+-+-+-+")
 let km, milhas
 
 //Entrada
-milhas = Number(read.question("Coloque a quantidade de milhas para ser convertida: ").replace(",","."))
+milhas = Number(read.question("Digite a Velocidade em Milhas: ").replace(",","."))
 
 //Processamento
 
-km = milhas * 1.609344
+km = milhas * 1.60934
 
 //Saida
 console.clear()
-console.log(`${km.toFixed(2)}KM `)
+console.log(`${km.toFixed(2)}Km/h `)
