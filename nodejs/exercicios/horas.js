@@ -1,3 +1,8 @@
+/**
+*calcular  o valor da hora de serviço de
+*um técninco de informatica
+*/
+
 //variavel
 let remuneracao, custo, investimento, horas
 const reserva = 30
