@@ -2,8 +2,12 @@
  * App para calcular a media de 2 notas
  */
 
+
 //importação do pacote readline-sync
 const read = require('readline-sync')
+
+//importação do pacote colors
+const colors = require("colors")
 
 //Variaveis
 let nome, disciplina
@@ -39,15 +43,14 @@ console.log(`Disciplina: ${disciplina}`)
 console.log(`nota 1: ${nota1}`)
 console.log(`nota 2: ${nota2}`)
 console.log(`media final: ${media}`)
+
+if(media < 6){
+
+console.log ("Reprovado".red)
+
+} else {
+
+ console.log("Aprovado".blue)
+}
+
 console.log("---------------------------------")
-if(media >= 6){
-
-console.log ("aprovado")
-
-}
-
-if(media <= 5 ){
-
-    console.log("Reprovado")
-}
-
