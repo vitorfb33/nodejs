@@ -1,0 +1,14 @@
+Mandamentos da programção (by jose de assis)
+
+1 Mandamento 
+Entender o problema
+
+2 Mandamento
+pensar primeiro na UX(experiencia do usuario)
+
+3 Mandamento
+clean code (usar o minimo de recursos possivel)
+
+--------------------------------------------------------
+Exercicio: desenvolver no scratch e no nodeJS um app informe qual é o combustivel
+mais vantajoso (etanol x gasolina) para abastecer um carro flex.
