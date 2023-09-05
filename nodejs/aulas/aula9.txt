@@ -17,3 +17,25 @@ Atividade de avaliação  individual
 
  hora técninca = 8000 / 160
  hora técninca = 50.00
+
+ //variavel
+remuneração, custo, horasMes, horatecnica (numerica)
+estimativa, total
+
+//entrada 1
+remuneração, custo, horasMes, estimativa
+
+//processamento 1
+horatecnica = (remuneração +(remuneração * 0.3)+ custo + (remuneração* 0.2)) / horasMess
+
+//saida 2
+horatecnica
+
+//entrada 2
+estimativa 
+
+//processamento 2
+total = horatecnica * estimativa
+
+//saida 2
+total

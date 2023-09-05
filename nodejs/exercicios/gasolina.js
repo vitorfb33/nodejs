@@ -32,3 +32,4 @@ resultado = gasolina/etanol
 } else {
     console.log("Abastecer com gasolina".red)
 }
+

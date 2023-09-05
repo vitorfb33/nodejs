@@ -1,0 +1,6 @@
+desafio
+desenvolver no scratch e no node.JS uma calculadora determinada pelo professor dentre as 22 possibilidade 
+
+entrega:
+scratch -> colocar no github github 
+Node.JS -> professor corrige na hora

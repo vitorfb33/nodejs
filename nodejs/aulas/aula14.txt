@@ -1,0 +1,107 @@
+correção do exercicios:
+1)calcular a quatidade de tijolos por metro quadrado (tijolos baiano 8 furos)
+
+tijolos baiano = 0,0361m
+
+
+variavel 
+m2, total, 0,0361
+
+entrada
+m2
+
+processamento
+total = m2 / 0,0361
+
+saida
+total
+
+-----------------------------------------------------------------------------------
+
+2)calcular a area e o perimetro de um retangulo
+area = base x altura
+perimetro = 2 (base + altura)
+
+//variavel
+area, base, altura, perimetro
+
+//entrada
+base
+altura
+
+//processamento
+area = base * altura
+
+//processamento2
+perimetro = 2 (base + altura)
+
+//saida
+area
+perimetro
+
+----------------------------------------------------------------
+3) calcular o volume de um aquário
+
+// variaveis
+comprimento,  altura, largura, volume
+
+// entrada
+comprimento
+altura
+largura
+
+//processamento
+volume = ((comprimento * largura)* altura)/1000
+
+//saida
+volume
+
+______________________________________________________
+estruturas de controle condicional
+
+encadeamento/aninhamento if - else
+
+if (condição) {
+    condição verdadeira
+}
+
+else (condição)  {
+    //condição falsa
+}
+
+__________________________________________
+
+if (condição1) {
+
+}else (condição 1){
+ 
+ if (condição2){
+
+ }else (condição 2)
+
+}
+ 
+
+
+______________________________________________________
+desenvolver no scratch e no node.js um app que informa a obrigatoriedade
+de votar em função da idade, sabendo que:
+-abaixo de 16 anos o voto é proibido
+- 16,17 ou acima de 70 anos o voto é facultativo
+- entre 18 e 70 (incluindo o 18 e o 70) o voto é obrigatorio
+
+//variaveis
+idade
+
+//processamento
+encadeamento if - else 
+
+if (idade < 16){
+    console.log("Proibido Votar")
+}else{
+    if (idade === 16 || idade === 17 || idade === 70) {
+        console.log("Voto Facultativo")
+    }else () {
+        console.log("Obrigatorio Votar")
+    }
+}
