@@ -16,8 +16,10 @@ idade = Number(read.question("Digite a sua idade:"))
 
 if (idade < 16) {
     console.log("Proibido Votar")
-} else if (idade > 17 && idade < 70) {
+} else if (idade > 17 && idade < 70  ) {
     console.log("Voto obrigatorio")
 } else {
     console.log("Voto facultativo")
 }
+
+
