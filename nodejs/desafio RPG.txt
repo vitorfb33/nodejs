@@ -1,0 +1,39 @@
+Desafio RPG
+
+Criar uma história (aventura estilo RPG)
+- código com interações
+
+Exemplo:
+let vidas = 3
+let moedas = 0
+
+ONE PIECE
+O pirata Luffy sai em busca do tesouro ONE PIECE
+Pressione a tecla [ENTER] para continuar a aventura
+console.clear()
+1. Navegar até a ilha da caveira
+2. Navegar até a ilha dos tritões
+3. Invadir a base da marinha
+Digite a opção desejada: 1
+case 3:
+console.clear()
+O pirata Luffy chegou a ilha da caveira e encontrou um baú:
+Pressione a tecla [ENTER] para continuar a aventura
+console.clear()
+1. Abrir o baú
+2. Continuar a jornada
+Digite a opção desejada: 1
+
+case 1:
+ random() * 3
+  case 0: 
+    bau explode vida -1
+  case 1: 
+    bau vazio
+  case 2:
+    bau cheio de tesouros | moedas + 100
+
+
+
+
+
