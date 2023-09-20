@@ -1,0 +1,58 @@
+/**
+*jogo pedra - papel - tesoura
+*/
+
+cost read = require('readline-sync)
+
+let jogador, computador
+
+console.clear()
+console.log("_______jokenpo________")
+console.log("1.pedra")
+console.log("2.papel")
+console.log("3.tesoura)
+jogador = Number(read.question("digite a opcao desejada: "))
+
+//Logica do jogador
+switch (jogador) {
+
+case 1: 
+	console.log("jogador escolheu pedra")
+	break
+case 2:
+	console.log("jogador escolheu papel")
+	break
+case 3: 
+	console.log("jogador escolheu tesoura")
+	break
+	default:
+	console.log("opcao invalida)
+	break
+}
+
+computador = Math.floor(Math.random() * 3 + 1 )
+
+
+//Logica do jogador
+switch (jogador) {
+
+case 1: 
+	console.log("computador escolheu pedra")
+	break
+case 2:
+	console.log("computador escolheu papel")
+	break
+case 3: 
+	console.log("jogador escolheu tesoura")
+	break
+}
+
+
+//logica para determinar empate ou declarar o vencedor
+
+if ( jogador === computador) {
+	console.log("empate")
+}else if ((jogador === 1 && computador === 3) || (jogador === 2 && computador === 1 || (jogador === 3 && computador === 2))) {
+	console.log("jogador venceu")
+} else {
+	console.log("computador venceu")
