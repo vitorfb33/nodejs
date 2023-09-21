@@ -1,0 +1,19 @@
+atividade de avaliação 
+(entrega no github) - 22/09
+
+continuar o jogo space invaders
+minimo:
+
+ufo -> em cima da tela percoorendo de um canto ao outro (borda)
+
+tiro de canhão ( touch ufo)
+-score + 100
+-mudar costume para explosão
+-efeito sonoro explosão
+
+ufo atirando:
+se acertar canhão:
+-lives -1
+-canhão explode
+se lives = 0
+ - game over
