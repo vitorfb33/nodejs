@@ -1,0 +1,16 @@
+estrutura de controle
+laços de repetições
+while | do while
+
+
+while (condição) {
+    //condição verdadeira
+}
+
+
+do {
+
+   //sempre executa o codigo uma vez independente da condição 
+   //depois analisa a condição (semelhante a estrutura while)
+
+} while(condição)
