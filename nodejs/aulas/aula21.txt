@@ -1,0 +1,18 @@
+POO
+
+Pilares:
+- Abstração
+- Herança
+- Polimorfismo
+- Encapsulamento
+
+//Abstração
+Classe modelo - objeto
+
+//Herança 
+ Extende(reutiliza) atributos e metodos da classe principal
+
+
+
+//Polimorfismo
+Modifica o comportamento de um método existente na classe principal
