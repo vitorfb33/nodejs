@@ -1,6 +1,9 @@
 /**
  * Estudo das funções
+ * Funções simples sem parametros ou retorno
  */
+
+// observação funções não atribuidas a variaveis pode ser declarada no fim do codigo, funções atribuidas e arrow function precisam ser declaradas no inicio do codigo
 
 //função simples
 function hello() {

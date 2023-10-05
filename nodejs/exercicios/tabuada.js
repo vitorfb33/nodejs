@@ -14,3 +14,4 @@ valor = Number(read.question('digite um valor da tabuada: '))
 for (let i = 1; i < 11; i++){
     console.log(`${valor} x ${i} = ${valor * i} `)
 }
+
