@@ -67,16 +67,6 @@ class aviao extends carro{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 //criação de objetos (Mundo)
 console.clear()
                                                       
