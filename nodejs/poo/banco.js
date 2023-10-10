@@ -18,7 +18,7 @@ class conta{
         this.saldo += valor //+= soma o valor 1
         console.log(`Credito de R$ ${valor.toFixed(2)}`)
     }
-    sacar(valor){
+    sacar(valor)/*aqui pode colocar o pix*/ {
         //validação
         if(valor <= this.saldo){
             this.saldo -= valor
