@@ -1,0 +1,19 @@
+atividade de avaliação POO - 2
+
+Agencia bancária
+
+dasifio
+1) Encapsular os atributos da classe conta
+
+
+2) criar mais dois objetos (clientes)
+    (Robson Vaamonde e Sirlene Aparecida)
+
+
+3) criar um novo metodo "pix" para  tranferencia de valores entre  contas  correntes. ex: Leandro faz um pix para sirlene | Robson -> Robson(poupança)
+
+4) Criar um novo método para transferir da conta corrente para conta poupança
+
+
+5) Melhorar a experiencia do usuario 
+

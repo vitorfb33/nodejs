@@ -18,3 +18,8 @@ Classe modelo - objeto
 Modifica o comportamento de um método existente na classe principal
 
 
+
+//Encapsulamento
+segurança (protege o acesso as variaveis)
+-- atributos(variaveis) --> privados
+--metodos especificos (GET e SET) são  usados para acessar as variaveis
